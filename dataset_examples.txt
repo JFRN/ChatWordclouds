@@ -1,0 +1,16 @@
+## processed-aggregate.csv (one line per User)
+
+User, Message
+"A", "word word2 word , . adsddsdsada"
+
+## actual.csv (many lines per User)
+
+User, Message
+"A", "word"
+"A", "word2"
+"B", "hi"
+
+## words.csv (words and their count)
+
+Word, Count
+"philosophy", 4300
